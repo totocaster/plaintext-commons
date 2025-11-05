@@ -43,4 +43,4 @@ Contains the Plaintext Commons manifesto and its evolution. This is a living doc
 
 ## License
 
-CC0 - Public Domain
+The Unlicense - Public Domain
