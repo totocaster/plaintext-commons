@@ -1,7 +1,10 @@
-PLAINTEXT COMMONS
+# Plaintext Commons
 
-Version 0.1 · November 2025
+#### Version 0.1 · November 2025
 
+To be published at: https://plaintextcommons.org
+
+---
 
 **Premise:** Knowledge should outlast software.  
 
