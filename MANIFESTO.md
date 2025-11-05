@@ -8,7 +8,7 @@ To be published at: https://plaintextcommons.org
 
 **Premise:** Knowledge should outlast software.  
 
-**Claim:** Today's models read the same mediums we do -- _predominantly text_ -- and other media (images, audio, video) are readily transcribable into text. The old "human-readable vs machine-readable" trade-off collapses.  
+**Claim:** Today's models read the same media we do — _predominantly text_ — and other media (images, audio, video) are readily transcribable into text. The old "human-readable vs machine-readable" trade-off collapses.  
 
 **Consequence:** Store what matters in _plain text (Markdown or .txt)_. Let tools come and go.
 
@@ -17,9 +17,9 @@ To be published at: https://plaintextcommons.org
 
 For decades, computers demanded rigid, app-specific formats. Modern tools (including AI) read and reason over text directly. That enables a different architecture:
 
-- **Data is stable** -- files you own and control.  
-- **Tools are interchangeable** -- text editors, CLIs, and agents operate on those files.  
-- **Intelligence is layered** -- toolks like search indexers and agents understand without owning the data.
+- **Data is stable** — files you own and control.  
+- **Tools are interchangeable** — text editors, CLIs, and agents operate on those files.  
+- **Intelligence is layered** — tools like search indexers and agents understand without owning the data.
 
 
 
@@ -40,13 +40,13 @@ For decades, computers demanded rigid, app-specific formats. Modern tools (inclu
 ## The three laws of the Commons
 
 1. **The folder is the platform.**  
-   One **corpus**--a folder of open files--acts as the system of record.
+   One **corpus**—a folder of open files—acts as the system of record.
 
 2. **The file is the protocol.**  
    Stable, human-readable **plain text (Markdown or .txt)** with optional front matter. No opaque blobs.
 
 3. **No tool owns the corpus.**  
-   Tools are non-exlusive and interchangeble, none of them enforce format or schema of the coprus. 
+   Tools are non-exclusive and interchangeable, none of them enforce format or schema of the corpus. 
 
 
 
@@ -55,10 +55,10 @@ For decades, computers demanded rigid, app-specific formats. Modern tools (inclu
 Different tools specialize and still cooperate because they share the same substrate:
 
 - **Authoring** in any editor.  
-- **Browsing & searching** (exploration and retrieval) via tools--indexers, embeddings, link graphs, etc.  
+- **Browsing & searching** (exploration and retrieval) via tools—indexers, embeddings, link graphs, etc.  
 - **Scripting and automation** with CLIs operated by humans/agents.  
-- **Organizing chores** (linking, filing, light refactors) delegated to tools/agents--without taking ownership of the data.  
-- **Capture & ingestion** from email, PDFs, and transcripts--converted to text with attachments nearby.
+- **Organizing chores** (linking, filing, light refactors) delegated to tools/agents—without taking ownership of the data.  
+- **Capture & ingestion** from email, PDFs, and transcripts—converted to text with attachments nearby.
 
 No exports. No migrations.
 
@@ -69,12 +69,12 @@ No exports. No migrations.
 Keep it robust without bureaucracy:
 
 - **Shallow corpus.** Let search, links, tags, and tools handle the heavy lifting, including organizing chores.  
-- **Note schema is optional.** Zettelkasten, Fleeting/Project/Evergreen, or none--your choice.  
+- **Note schema is optional.** Zettelkasten, Fleeting/Project/Evergreen, or none—your choice.  
 - **Stable filenames.** Use a simple stamp pattern if it helps.  
 - **Metadata:**  
   - **Markdown:** use _front matter_ for light metadata.  
   - **.txt:** use a tiny _adjacent metadata file_ only when needed.  
-- **Sync/history:** Git, cloud sync, both or none -- your call.
+- **Sync/history:** Git, cloud sync, both or none — your call.
 
 
 
@@ -85,7 +85,7 @@ Keep it robust without bureaucracy:
 - **Explain results.** For ranking and retrieval, indicate why (keywords, similarity, links).  
 - **Respect corpus rules.** Honor ignore lists, attachment folders, and local settings.  
 - **Pipe-friendly I/O.** Text/JSON in and out; compose with other CLIs.  
-- **AI/agent-aware.** Expose capabilities in open, automatable ways (e.g., MCP/stdio/HTTP)--no proprietary lock-ins.  
+- **AI/agent-aware.** Expose capabilities in open, automatable ways (e.g., MCP/stdio/HTTP)—no proprietary lock-ins.  
 - **No schema capture.** Indexes are caches; they never become the source of truth.
 
 
@@ -96,7 +96,7 @@ Keep it robust without bureaucracy:
 2. **Choose light conventions.** Naming, links, and minimal front matter; stop when marginal value drops.  
 3. **Add an indexer.** Turn on FTS + embeddings + backlinks; let the index come to the files, not the other way around.  
 4. **Introduce a tool/agent.** Examples: **Claude Code** or **Codex** (CLI), **Claude.ai** (app), or **LM Studio** (local). Use open interfaces (CLI, MCP/stdio/HTTP).  
-5. **Require previewable writes.** Propose -> preview -> apply -> log.  
+5. **Require previewable writes.** Propose → preview → apply → log.  
 6. **Iterate only where it pays.** Improve naming, linking, tagging, and automation gradually.
 
 
@@ -106,7 +106,7 @@ Keep it robust without bureaucracy:
 Ask this before adopting a tool or workflow:
 
 1. **Can I read/edit the files with a basic text editor?**  
-2. **Can I move the folder and keep working--no exports required?**  
+2. **Can I move the folder and keep working—no exports required?**  
 3. **Can the tool propose a human-auditable preview of changes (with rationale) before writing?**  
 4. **Will this still make sense in ten years?**
 
