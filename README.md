@@ -8,8 +8,7 @@ Knowledge should outlast software.
 
 A design stance for knowledge work where plain text files are the source of truth, not apps. Your folder of Markdown or .txt files *is* the platform. Tools come and go, but your files remain.
 
-**Read the full manifesto: [plaintextcommons.org](https://plaintextcommons.org)** _(coming soon)_
-**Draft version: [ttvl.co/plaintext-commons](https://ttvl.co/plaintext-commons/)** _(tracked [here](/MANIFESTO.md))_
+**Read the full manifesto: [plaintextcommons.org](https://plaintextcommons.org)**
 
 ## The Three Laws
 
@@ -37,9 +36,6 @@ If not, it's not Commons-compatible.
 
 Contains the Plaintext Commons manifesto and its evolution. This is a living document based on active research in file-native thinking systems.
 
-## Version
-
-**v0.1** - November 2025
 
 ## License
 
